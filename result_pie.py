@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-ait=pd.read_csv("Python programs/atria_ise.csv")
+ait=pd.read_csv("result-data.csv")
 subject=input("Enter the subject to check result(eg:ME,CN):")
 sname=ait[subject]
 
