@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 ait=pd.read_csv("Python programs/atria_ise.csv")
 ait.set_index('USN', inplace=True)
-usn=input("Enter USN for result(eg:1AT15IS063):")
+usn=input("Enter USN for result(eg:RES15IS063):")
 marks=ait.loc[usn] 
 subject = ['ME','CN','ADV JAVA','DBMS','FLAT','CC','CN Lab','DBMS Lab']
 
